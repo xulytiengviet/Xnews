@@ -1,8 +1,8 @@
 {
-  "state": "unconfigured",
-  "checked_at": null,
+  "checked_at": "2026-10-16T07:04:52.675343+00:00",
   "last_success": null,
   "accounts": 30,
   "errors": [],
+  "state": "unconfigured",
   "tweets": []
 }
