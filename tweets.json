@@ -1,8 +1,17 @@
 {
-  "checked_at": "2026-10-16T07:11:32.436404+00:00",
+  "checked_at": "2026-10-16T07:16:58.150213+00:00",
   "last_success": null,
   "accounts": 100,
-  "errors": [],
-  "state": "unconfigured",
+  "errors": [
+    {
+      "username": "briankrebs",
+      "message": "HTTP 402"
+    },
+    {
+      "username": "system",
+      "message": "Dừng lượt thu thập; kiểm tra quyền API, ngân sách hoặc giới hạn truy cập."
+    }
+  ],
+  "state": "partial",
   "tweets": []
 }
