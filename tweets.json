@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-10-16T07:04:52.675343+00:00",
+  "checked_at": "2026-10-16T07:11:32.436404+00:00",
   "last_success": null,
-  "accounts": 30,
+  "accounts": 100,
   "errors": [],
   "state": "unconfigured",
   "tweets": []
