@@ -52,16 +52,18 @@ async function refresh() {
   } catch (error) { $('notice').textContent = 'Không tải được dữ liệu: ' + error.message + '. Giữ lại nội dung lần trước.'; }
   finally { loading = false; $('refresh').disabled = false; }
 }
-$('category').onchange = render; $('topic').onchange = render; $('search').oninput = render; $('author').onchange = render;
+$('category').onchange = () => { render(); renderDirectory(); }; $('topic').onchange = render; $('search').oninput = render; $('author').onchange = render;
 $('refresh').onclick = refresh;
 $('settings').onclick = () => $('help').showModal(); $('close').onclick = () => $('help').close();
 $('pause').onclick = () => { paused = !paused; $('pause').textContent = paused ? '▶ Tiếp tục' : 'Ⅱ Tạm dừng'; };
 $('fullscreen').onclick = async () => { try { if (document.fullscreenElement) await document.exitFullscreen(); else await document.documentElement.requestFullscreen(); } catch { $('notice').textContent = 'Trình duyệt không hỗ trợ toàn màn hình. Có thể dùng phím F11.'; } };
 function renderDirectory() {
   const q = $('directory-search').value.toLowerCase(); $('directory').replaceChildren();
-  for (const p of profiles.filter(p => (p.name + ' ' + p.username).toLowerCase().includes(q))) {
+  const selected = profiles.filter(p => (!$('category').value || p.category === $('category').value) && [p.name, p.username, p.focus || '', categories[p.category]].join(' ').toLowerCase().includes(q));
+  $('directory-title').textContent = `Danh mục ${profiles.length} tài khoản · hiển thị ${selected.length}`;
+  for (const p of selected) {
     const row = node('div', '', 'directory-row');
-    row.append(link(p.name + ' · @' + p.username, 'https://x.com/' + p.username), node('small', categories[p.category]), node('small', p.provenance));
+    row.append(link(p.name + ' · @' + p.username, 'https://x.com/' + p.username), node('small', categories[p.category]), node('p', p.focus || ''), node('small', p.provenance));
     for (const source of p.sources || []) row.append(link('Nguồn tham khảo ↗', source));
     $('directory').append(row);
   }

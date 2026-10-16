@@ -1,6 +1,6 @@
 # Xnews · Trạm tin an ninh mạng
 
-Dashboard tiếng Việt theo dõi 100 tài khoản X và hiển thị bài có liên kết GitHub. Long Ngo thiết kế. MIT.
+Dashboard tiếng Việt cấu hình theo dõi 192 tài khoản X và hiển thị bài có liên kết GitHub. Long Ngo thiết kế. MIT.
 
 ## Kích hoạt
 
@@ -43,3 +43,15 @@ Không chuyển các mục ecosystem, tập thể, người đã có trong danh 
 Phần lớn handle do người dùng cung cấp; chỉ một số đã đối chiếu nguồn công khai, ghi rõ ở từng hồ sơ. Không gắn nhãn “đã xác minh” cho toàn bộ 100 người và chưa xác nhận tài khoản còn hoạt động bằng X API. Danh mục không phải chứng nhận đạo đức hoặc bảo chứng cho mọi nội dung của các tài khoản.
 
 100 tài khoản có thể tăng số lượt API và chi phí so với 30. Lọc GitHub/chủ đề diễn ra sau khi X trả dữ liệu, không làm giảm số bài bị API tính phí. Giữ lịch 30 phút theo cấu hình hiện tại; cân nhắc giảm tần suất trong workflow nếu cần.
+
+## Đợt bổ sung thứ hai — 16/10/2026
+
+Thêm **92 cá nhân không trùng**, tổng **192 tài khoản cấu hình**. Danh mục thêm các nhóm điều tra scam/cybercrime, tài chính/thanh toán, PQC, HE, MPC, ZKP, mật mã nhẹ, kênh kề và thuật toán lượng tử. Không coi mọi nhà báo cybercrime là chuyên gia carding, mọi người làm AI security là nhà thám mã AI, hoặc mọi chuyên gia blockchain là auditor.
+
+Mỗi hồ sơ mới có mô tả `focus`, URL nguồn tham khảo, ngày đối chiếu `reference_checked_at` và trạng thái `verification: public_reference`. Trạng thái này chỉ có nghĩa là tìm được dấu vết công khai liên quan tới tên/handle; nguồn gồm trang cá nhân, trường/viện, GitHub, bài nói chuyện và chỉ mục công khai. Nguồn thứ cấp hoặc cũ có thể sai/lỗi thời. Chưa xác thực danh tính, quyền truy cập, hoạt động hiện tại hay khả năng đọc bài bằng X API. Không dùng nhãn “white-hat đã xác minh” làm bảo chứng cho toàn bộ danh sách.
+
+Các tên đã có như Brian Krebs, Jake Williams, Matthew Green, Daniel J. Bernstein, Tanja Lange, Chris Peikert, Nigel Smart và Stanislav Fort không được thêm lần hai. Những mục chỉ ghi tên nhóm/công ty, hoặc chưa chốt được X handle (ví dụ Dustin Moody, Craig Gentry, Shai Halevi, Shafi Goldwasser), chưa được biến thành tài khoản cấu hình. Nhóm chuyên sâu mật mã nhẹ, HE và thám mã lượng tử có ít hồ sơ hơn; không bổ sung người sai chuyên môn để đủ đúng 100.
+
+Danh mục tìm được theo tên, handle, chuyên môn; bộ lọc lĩnh vực áp dụng cả danh mục và bài viết. Có 13 bộ từ khóa bài viết, gồm scam/cybercrime, thanh toán, identity và AI/ML trong thám mã. Chủ đề bài viết chỉ là từ khóa, không xác nhận nội dung khoa học. Danh mục hoạt động khi chưa có tweet; số 192 là số tài khoản cấu hình, không phải số tài khoản đã thu thập thành công.
+
+Mở rộng danh mục không khắc phục HTTP 402 của X API. Cần xử lý điều kiện thanh toán/quyền truy cập trong tài khoản X Developer để thu thập được bài thật. Mỗi chu kỳ có thể gọi nhiều API hơn; lịch thu thập vẫn 30 phút. Chỉ bài chứa liên kết GitHub được hiển thị, nên nhiều bài điều tra scam không kèm GitHub sẽ không xuất hiện trong bảng tin.

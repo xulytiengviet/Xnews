@@ -99,7 +99,99 @@
     "Khovr",
     "benediktbuenz",
     "randhindi",
-    "FiloSottile"
+    "FiloSottile",
+    "nixonnixoff",
+    "joetidy",
+    "billatnapier",
+    "martinralbrecht",
+    "CraigGidney",
+    "ralucaadapopa",
+    "danboneh",
+    "silviomicali",
+    "SuccinctJT",
+    "ebfull",
+    "_nickspoon",
+    "GiacomoFenzi",
+    "sjmurdoch",
+    "kennyog",
+    "dawnsongtweets",
+    "demonslay335",
+    "fwosar",
+    "BrettCallow",
+    "LawrenceAbrams",
+    "campuscodi",
+    "josephfcox",
+    "lorenzofb",
+    "a_greenberg",
+    "lilyhnewman",
+    "ragreens",
+    "NicolasPapernot",
+    "ben_nassi",
+    "lavados",
+    "OmerShlomovits",
+    "kobigurk",
+    "1HowardWu",
+    "srinathtv",
+    "rel_zeta_tech",
+    "cryptodavidw",
+    "isogenies",
+    "Tim_Roughgarden",
+    "EliBenSasson",
+    "gregoryneven",
+    "ChristofPaar",
+    "kaepora",
+    "cr_yp_to",
+    "LindellYehuda",
+    "claucece",
+    "lejla_batina",
+    "mmaker",
+    "n1ckler",
+    "yuvalyarom",
+    "mortendahlcs",
+    "evacide",
+    "apoelstra",
+    "real_or_random",
+    "agl__",
+    "billmarczak",
+    "zooko",
+    "alexstamos",
+    "iamtrask",
+    "jsrailton",
+    "claudiorlandi",
+    "secparam",
+    "pwuille",
+    "mjg59",
+    "SarahJamieLewis",
+    "sweis",
+    "bambenek",
+    "vkamluk",
+    "ryanaraine",
+    "iblametom",
+    "JusticeRage",
+    "KimZetter",
+    "craiu",
+    "tomrobin",
+    "BushidoToken",
+    "DAlperovitch",
+    "silascutler",
+    "bwesterb",
+    "nicoleperlroth",
+    "juanandres_gs",
+    "zackwhittaker",
+    "chelseakomlo",
+    "socrates1024",
+    "BloodyTangerine",
+    "runasand",
+    "cperciva",
+    "misc0110",
+    "tusharjois",
+    "durumcrustulum",
+    "roeslpa",
+    "cryptopathe",
+    "grittygrease",
+    "hdevalence",
+    "jedisct1",
+    "crypto_carsten"
   ],
   "categories": {
     "general": "An toàn thông tin",
@@ -114,7 +206,16 @@
     "cloud": "Cloud / Chuỗi cung ứng",
     "privacy": "Quyền riêng tư / Dữ liệu",
     "mobile": "Bảo mật di động",
-    "crypto": "Mật mã / Thám mã"
+    "crypto": "Mật mã / Thám mã",
+    "fraud": "Điều tra scam / Cybercrime",
+    "finance": "Tài chính / Thanh toán / Identity",
+    "pqc": "Mật mã hậu lượng tử (PQC)",
+    "quantum": "Thuật toán / Thám mã lượng tử",
+    "zkp": "ZKP / Chứng minh tính toán",
+    "fhe": "Mã hóa đồng cấu / Dữ liệu mã hóa",
+    "mpc": "MPC / Tính toán bảo mật",
+    "lightweight": "Mật mã nhẹ / Nhúng",
+    "sidechannel": "Kênh kề / Vi kiến trúc"
   },
   "profiles": [
     {
@@ -842,6 +943,1110 @@
       "sources": [
         "https://words.filippo.io/hi/"
       ]
+    },
+    {
+      "username": "nixonnixoff",
+      "name": "Allison Nixon",
+      "category": "fraud",
+      "focus": "Điều tra cybercrime, tống tiền và hạ tầng tội phạm",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API. Có dấu hiệu chuyển hoạt động sang nền tảng khác; không cam kết có bài mới trên X.",
+      "sources": [
+        "https://securityconversations.fireside.fm/allison-nixon-unit-221b-cybercrime"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "joetidy",
+      "name": "Joe Tidy",
+      "category": "fraud",
+      "focus": "Báo chí điều tra cybercrime và scam",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://joetidy.wordpress.com/2014/02/05/about/"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "billatnapier",
+      "name": "Bill Buchanan",
+      "category": "crypto",
+      "focus": "Giáo dục và ứng dụng mật mã, PQC",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://napier-repository.worktribe.com/person/110736/bill-buchanan"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "martinralbrecht",
+      "name": "Martin Albrecht",
+      "category": "pqc",
+      "focus": "Lattice và thám mã hậu lượng tử",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://gist.github.com/malb"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "CraigGidney",
+      "name": "Craig Gidney",
+      "category": "quantum",
+      "focus": "Thuật toán và tối ưu mạch lượng tử",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://w.twstalker.com/CraigGidney"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "ralucaadapopa",
+      "name": "Raluca Ada Popa",
+      "category": "fhe",
+      "focus": "Tính toán bảo mật trên dữ liệu mã hóa",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://x.twstalker.com/ralucaadapopa"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "danboneh",
+      "name": "Dan Boneh",
+      "category": "zkp",
+      "focus": "Mật mã ứng dụng và zero-knowledge",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://www6.twstalker.com/danboneh"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "silviomicali",
+      "name": "Silvio Micali",
+      "category": "zkp",
+      "focus": "Zero-knowledge và nền tảng mật mã",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://mobile.twstalker.com/silviomicali"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "SuccinctJT",
+      "name": "Justin Thaler",
+      "category": "zkp",
+      "focus": "SNARK và verifiable computation",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://x.com/SuccinctJT/with_replies"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "ebfull",
+      "name": "Sean Bowe",
+      "category": "zkp",
+      "focus": "zk-SNARK và Zcash",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://www.twstalker.com/ebfull"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "_nickspoon",
+      "name": "Nick Spooner",
+      "category": "zkp",
+      "focus": "Proof systems và zero-knowledge",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://x.com/_nickspoon/with_replies"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "GiacomoFenzi",
+      "name": "Giacomo Fenzi",
+      "category": "zkp",
+      "focus": "Hash-based SNARK và mật mã",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://gfenzi.io/"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "sjmurdoch",
+      "name": "Steven Murdoch",
+      "category": "finance",
+      "focus": "Bảo mật thanh toán, EMV và xác thực",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://threadreaderapp.com/thread/1638623990817103888.html"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "kennyog",
+      "name": "Kenny Paterson",
+      "category": "crypto",
+      "focus": "Mật mã ứng dụng và giao thức bảo mật",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://www.linkedin.com/posts/kenny-paterson-6841a65_kennyog-on-twitter-activity-7064652438871400448-d5M4"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "dawnsongtweets",
+      "name": "Dawn Song",
+      "category": "ai",
+      "focus": "Bảo mật hệ thống, AI và quyền riêng tư",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://site.twstalker.com/dawnsongtweets"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "demonslay335",
+      "name": "Michael Gillespie",
+      "category": "fraud",
+      "focus": "Phân tích ransomware và giải mã hỗ trợ nạn nhân",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://www.hhs.gov/sites/default/files/hph-ransomware-trends-analyst-note.pdf"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "fwosar",
+      "name": "Fabian Wosar",
+      "category": "fraud",
+      "focus": "Ransomware và phân tích mã độc",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://malpedia.caad.fkie.fraunhofer.de/details/win.revil"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "BrettCallow",
+      "name": "Brett Callow",
+      "category": "fraud",
+      "focus": "Ransomware và truyền thông sự cố",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://vtechworks.lib.vt.edu/bitstream/handle/10919/112179/Kinnaman-Ransomeware_NDSA2022.pdf"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "LawrenceAbrams",
+      "name": "Lawrence Abrams",
+      "category": "fraud",
+      "focus": "Báo chí an ninh mạng, ransomware và lừa đảo",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://twitterscore.io/twitter/LawrenceAbrams/"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "campuscodi",
+      "name": "Catalin Cimpanu",
+      "category": "fraud",
+      "focus": "Báo chí cybercrime và threat intelligence",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API. Có dấu hiệu chuyển hoạt động sang nền tảng khác; không cam kết có bài mới trên X.",
+      "sources": [
+        "https://mobile.twstalker.com/campuscodi"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "josephfcox",
+      "name": "Joseph Cox",
+      "category": "fraud",
+      "focus": "Điều tra cybercrime, dữ liệu và giám sát",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://w.twstalker.com/josephfcox"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "lorenzofb",
+      "name": "Lorenzo Franceschi-Bicchierai",
+      "category": "fraud",
+      "focus": "Báo chí điều tra hacking và cybercrime",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://ww.twstalker.com/lorenzofb"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "a_greenberg",
+      "name": "Andy Greenberg",
+      "category": "fraud",
+      "focus": "Điều tra cybercrime và truy vết tiền mã hóa",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://andygreenberg.net/contact"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "lilyhnewman",
+      "name": "Lily Hay Newman",
+      "category": "fraud",
+      "focus": "Báo chí bảo mật và quyền riêng tư",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://twitterscore.io/twitter/lilyhnewman/"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "ragreens",
+      "name": "Rachel Greenstadt",
+      "category": "privacy",
+      "focus": "Quyền riêng tư và bảo mật dữ liệu",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q57443419"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "NicolasPapernot",
+      "name": "Nicolas Papernot",
+      "category": "ai",
+      "focus": "Adversarial ML và quyền riêng tư học máy",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://threadreaderapp.com/user/NicolasPapernot"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "ben_nassi",
+      "name": "Ben Nassi",
+      "category": "sidechannel",
+      "focus": "Kênh kề quang học và bảo mật AI",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://en-engineering.tau.ac.il/profile/nassiben"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "lavados",
+      "name": "Daniel Gruss",
+      "category": "sidechannel",
+      "focus": "Kênh kề vi kiến trúc và thực thi suy đoán",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q47038490"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "OmerShlomovits",
+      "name": "Omer Shlomovits",
+      "category": "mpc",
+      "focus": "Threshold cryptography và MPC",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://remaja.twstalker.com/OmerShlomovits"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "kobigurk",
+      "name": "Kobi Gurkan",
+      "category": "zkp",
+      "focus": "Zero-knowledge và bảo mật triển khai mật mã",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://site.twstalker.com/kobigurk"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "1HowardWu",
+      "name": "Howard Wu",
+      "category": "zkp",
+      "focus": "Zero-knowledge và ứng dụng blockchain",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://github.com/howardwu"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "srinathtv",
+      "name": "Srinath Setty",
+      "category": "zkp",
+      "focus": "Verifiable computation và recursive proofs",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://x.com/srinathtv/with_replies"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "rel_zeta_tech",
+      "name": "Ariel Gabizon",
+      "category": "zkp",
+      "focus": "Hệ chứng minh zk-SNARK",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://www.sotwe.com/rel_zeta_tech"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "cryptodavidw",
+      "name": "David Wong",
+      "category": "crypto",
+      "focus": "Mật mã ứng dụng và kiểm toán triển khai",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://www.twstalker.com/cryptodavidw"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "isogenies",
+      "name": "Giacomo Pope",
+      "category": "pqc",
+      "focus": "Isogeny, thám mã và triển khai mật mã",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://github.com/giacomopope"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "Tim_Roughgarden",
+      "name": "Tim Roughgarden",
+      "category": "blockchain",
+      "focus": "Nền tảng khoa học blockchain và giao thức",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://threadreaderapp.com/user/Tim_Roughgarden"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "EliBenSasson",
+      "name": "Eli Ben-Sasson",
+      "category": "zkp",
+      "focus": "STARK và chứng minh tính toán",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://twstalker.com/EliBenSasson"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "gregoryneven",
+      "name": "Gregory Neven",
+      "category": "crypto",
+      "focus": "Giao thức và mật mã ứng dụng",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://microblog.cr.yp.to/"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "ChristofPaar",
+      "name": "Christof Paar",
+      "category": "lightweight",
+      "focus": "Mật mã phần cứng và hệ thống nhúng",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://casa.rub.de/forschung/publikationen/autor/christof-paar"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "kaepora",
+      "name": "Nadim Kobeissi",
+      "category": "crypto",
+      "focus": "Mật mã ứng dụng và kiểm chứng giao thức",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://w.twstalker.com/kaepora"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "cr_yp_to",
+      "name": "Andreas Hülsing",
+      "category": "pqc",
+      "focus": "Chữ ký hậu lượng tử và hash-based signatures",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://x.com/cr_yp_to"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "LindellYehuda",
+      "name": "Yehuda Lindell",
+      "category": "mpc",
+      "focus": "Secure computation và MPC",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://www.twstalker.com/LindellYehuda"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "claucece",
+      "name": "Sofía Celi",
+      "category": "pqc",
+      "focus": "Mật mã ứng dụng, PQC và quyền riêng tư",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://github.com/claucece"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "lejla_batina",
+      "name": "Lejla Batina",
+      "category": "lightweight",
+      "focus": "Mật mã nhúng, kênh kề và AI trong bảo mật phần cứng",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://www.cs.ru.nl/~lejla/"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "mmaker",
+      "name": "Michele Orrù",
+      "category": "zkp",
+      "focus": "Zero-knowledge và mật mã ứng dụng",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://w.twstalker.com/mmaker"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "n1ckler",
+      "name": "Jonas Nick",
+      "category": "crypto",
+      "focus": "Chữ ký số và mật mã Bitcoin",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://w.twstalker.com/n1ckler"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "yuvalyarom",
+      "name": "Yuval Yarom",
+      "category": "sidechannel",
+      "focus": "Kênh kề vi kiến trúc",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://ichsa.sise.bgu.ac.il/2021/Speakers/Yarom"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "mortendahlcs",
+      "name": "Morten Dahl",
+      "category": "fhe",
+      "focus": "Mã hóa đồng cấu và tính toán bảo mật",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://www.sotwe.com/mortendahlcs"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "evacide",
+      "name": "Eva Galperin",
+      "category": "privacy",
+      "focus": "Chống stalkerware và bảo vệ người dùng có nguy cơ",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://objective-see.org/downloads/oftw/v1/OFTW_v1_eGalperin.pdf"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "apoelstra",
+      "name": "Andrew Poelstra",
+      "category": "crypto",
+      "focus": "Mật mã Bitcoin và bảo mật giao dịch",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://www.btcplusplus.dev/whois/apoelstra"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "real_or_random",
+      "name": "Tim Ruffing",
+      "category": "crypto",
+      "focus": "Chữ ký số và mật mã ứng dụng",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://wew.twstalker.com/real_or_random"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "agl__",
+      "name": "Adam Langley",
+      "category": "crypto",
+      "focus": "Kỹ thuật mật mã, TLS và xác thực",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://x.com/agl__"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "billmarczak",
+      "name": "Bill Marczak",
+      "category": "privacy",
+      "focus": "Điều tra spyware và giám sát số",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://threadreaderapp.com/user/billmarczak"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "zooko",
+      "name": "Zooko Wilcox",
+      "category": "zkp",
+      "focus": "Mật mã bảo vệ quyền riêng tư và Zcash",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://gsnetworks.org/wp-content/uploads/Governance-of-the-Internet-2d-Era_BRI_2017.07.28-v.6.pdf"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "alexstamos",
+      "name": "Alex Stamos",
+      "category": "research",
+      "focus": "Bảo mật nền tảng và lạm dụng trực tuyến",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://w.twstalker.com/alexstamos"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "iamtrask",
+      "name": "Andrew Trask",
+      "category": "mpc",
+      "focus": "Học máy bảo vệ quyền riêng tư và OpenMined",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://www.twstalker.com/iamtrask"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "jsrailton",
+      "name": "John Scott-Railton",
+      "category": "privacy",
+      "focus": "Điều tra spyware và tấn công nhắm mục tiêu",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://www6.twstalker.com/jsrailton"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "claudiorlandi",
+      "name": "Claudio Orlandi",
+      "category": "mpc",
+      "focus": "MPC và giao thức mật mã",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://users-cs.au.dk/orlandi/"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "secparam",
+      "name": "Ian Miers",
+      "category": "zkp",
+      "focus": "Mật mã bảo vệ quyền riêng tư và zero-knowledge",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://www.cs.umd.edu/people/imiers"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "pwuille",
+      "name": "Pieter Wuille",
+      "category": "crypto",
+      "focus": "Mật mã và kỹ thuật giao thức Bitcoin",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://x.com/pwuille/with_replies"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "mjg59",
+      "name": "Matthew Garrett",
+      "category": "hardware",
+      "focus": "Bảo mật firmware, Secure Boot và Linux",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API. Có dấu hiệu chuyển hoạt động sang nền tảng khác; không cam kết có bài mới trên X.",
+      "sources": [
+        "https://x.com/mjg59"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "SarahJamieLewis",
+      "name": "Sarah Jamie Lewis",
+      "category": "privacy",
+      "focus": "Công nghệ bảo vệ quyền riêng tư và dữ liệu nhạy cảm",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q48816776"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "sweis",
+      "name": "Steve Weis",
+      "category": "crypto",
+      "focus": "Kỹ thuật mật mã và bảo vệ dữ liệu",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://www6.twstalker.com/sweis"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "bambenek",
+      "name": "John Bambenek",
+      "category": "fraud",
+      "focus": "Threat intelligence và hạ tầng cybercrime",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://hitcon.org/2017/pacific/0composition/pdf/Day1/R1/R1-1.12.7.pdf"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "vkamluk",
+      "name": "Vitaly Kamluk",
+      "category": "dfir",
+      "focus": "Phân tích mã độc và threat intelligence",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://mobile.twstalker.com/vkamluk"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "ryanaraine",
+      "name": "Ryan Naraine",
+      "category": "research",
+      "focus": "Báo chí bảo mật và phỏng vấn chuyên gia",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://mobile.twstalker.com/ryanaraine"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "iblametom",
+      "name": "Thomas Brewster",
+      "category": "fraud",
+      "focus": "Báo chí điều tra cybercrime và giám sát",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://mobile.twstalker.com/iblametom"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "JusticeRage",
+      "name": "Ivan Kwiatkowski",
+      "category": "dfir",
+      "focus": "Phân tích mã độc và chiến dịch tấn công",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://w.twstalker.com/JusticeRage"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "KimZetter",
+      "name": "Kim Zetter",
+      "category": "fraud",
+      "focus": "Báo chí điều tra an ninh mạng",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://w.twstalker.com/KimZetter"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "craiu",
+      "name": "Costin Raiu",
+      "category": "dfir",
+      "focus": "Malware, APT và threat intelligence",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://www.sotwe.com/craiu?lang=tr"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "tomrobin",
+      "name": "Tom Robinson",
+      "category": "finance",
+      "focus": "Phân tích blockchain và tội phạm tài chính",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://www.respublica.org.uk/our-people/contributors/tom-robinson/"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "BushidoToken",
+      "name": "Will Thomas",
+      "category": "fraud",
+      "focus": "Threat intelligence và cybercrime underground",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://www.sans.edu/profiles/will-thomas"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "DAlperovitch",
+      "name": "Dmitri Alperovitch",
+      "category": "dfir",
+      "focus": "Threat intelligence và hoạt động tấn công quốc gia",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://ww.twstalker.com/DAlperovitch"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "silascutler",
+      "name": "Silas Cutler",
+      "category": "fraud",
+      "focus": "Cybercrime và phân tích mã độc",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://www.instalker.org/silascutler"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "bwesterb",
+      "name": "Bas Westerbaan",
+      "category": "pqc",
+      "focus": "Triển khai mật mã hậu lượng tử",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://ww.twstalker.com/bwesterb"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "nicoleperlroth",
+      "name": "Nicole Perlroth",
+      "category": "fraud",
+      "focus": "Báo chí điều tra cybercrime và thị trường khai thác lỗ hổng",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q105623660"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "juanandres_gs",
+      "name": "Juan Andrés Guerrero-Saade",
+      "category": "dfir",
+      "focus": "Malware và threat intelligence",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://www.epicturla.com/about"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "zackwhittaker",
+      "name": "Zack Whittaker",
+      "category": "fraud",
+      "focus": "Báo chí bảo mật, rò rỉ dữ liệu và quyền riêng tư",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://ww.twstalker.com/zackwhittaker"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "chelseakomlo",
+      "name": "Chelsea Komlo",
+      "category": "mpc",
+      "focus": "Threshold signatures và giao thức mật mã",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://x.com/chelseakomlo/with_replies"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "socrates1024",
+      "name": "Andrew Miller",
+      "category": "mpc",
+      "focus": "Tính toán bảo mật và giao thức blockchain",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://www.soc1024.com/"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "BloodyTangerine",
+      "name": "Clémentine Maurice",
+      "category": "sidechannel",
+      "focus": "Kênh kề và bảo mật vi kiến trúc",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://twstalker.com/SpiralsTeam"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "runasand",
+      "name": "Runa Sandvik",
+      "category": "privacy",
+      "focus": "Bảo vệ nhà báo và người dùng có nguy cơ",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://w.twstalker.com/runasand"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "cperciva",
+      "name": "Colin Percival",
+      "category": "crypto",
+      "focus": "Kỹ thuật mật mã và bảo mật hệ thống",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q64743585"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "misc0110",
+      "name": "Michael Schwarz",
+      "category": "sidechannel",
+      "focus": "Kênh kề vi kiến trúc và thực thi suy đoán",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://www.twstalker.com/misc0110"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "tusharjois",
+      "name": "Tushar Jois",
+      "category": "privacy",
+      "focus": "Giao thức riêng tư và liên lạc bảo mật",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://github.com/tusharjois"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "durumcrustulum",
+      "name": "Deirdre Connolly",
+      "category": "pqc",
+      "focus": "Mật mã ứng dụng và isogeny",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API. Có dấu hiệu chuyển hoạt động sang nền tảng khác; không cam kết có bài mới trên X.",
+      "sources": [
+        "https://threadreaderapp.com/user/durumcrustulum"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "roeslpa",
+      "name": "Paul Rösler",
+      "category": "crypto",
+      "focus": "Chứng minh an toàn cho giao thức nhắn tin",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://www.roeslpa.de/"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "cryptopathe",
+      "name": "Pascal Junod",
+      "category": "lightweight",
+      "focus": "Mật mã ứng dụng và mật mã nhẹ",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://crypto.junod.info/lightweight2011_talk.pdf"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "grittygrease",
+      "name": "Nick Sullivan",
+      "category": "crypto",
+      "focus": "TLS và kỹ thuật mật mã ứng dụng",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://fundraisingfox.com/people/nick-sullivan"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "hdevalence",
+      "name": "Henry de Valence",
+      "category": "zkp",
+      "focus": "Mật mã bảo vệ quyền riêng tư và proof systems",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://www.twstalker.com/hdevalence"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "jedisct1",
+      "name": "Frank Denis",
+      "category": "crypto",
+      "focus": "Triển khai mật mã và libsodium",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://x.com/jedisct1/with_replies"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
+    },
+    {
+      "username": "crypto_carsten",
+      "name": "Carsten Baum",
+      "category": "mpc",
+      "focus": "MPC, PQC và công nghệ bảo vệ dữ liệu tài chính",
+      "provenance": "Có nguồn đối chiếu công khai; chưa kiểm tra tài khoản bằng X API.",
+      "sources": [
+        "https://www.esat.kuleuven.be/cosic/events/standardization-pqc-fundamentals/wp-content/uploads/sites/13/2025/09/Fancy-PQC.pdf"
+      ],
+      "reference_checked_at": "2026-10-16",
+      "verification": "public_reference"
     }
   ]
 }

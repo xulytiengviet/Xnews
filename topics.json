@@ -60,7 +60,7 @@
   },
   {
     "id": "sidechannel",
-    "label": "AI/ML & Kênh kề",
+    "label": "Kênh kề / Fault injection",
     "keywords": [
       "side-channel",
       "side channel",
@@ -100,6 +100,56 @@
       "tcp",
       "wi-fi",
       "wireless"
+    ]
+  },
+  {
+    "id": "fraud",
+    "label": "Scam / Underground / Cybercrime",
+    "keywords": [
+      "scam",
+      "fraud",
+      "carding",
+      "underground",
+      "stolen cards",
+      "ransomware",
+      "initial access broker",
+      "BreachForums"
+    ]
+  },
+  {
+    "id": "finance",
+    "label": "Tài chính / Thẻ / Thanh toán",
+    "keywords": [
+      "payment security",
+      "EMV",
+      "PCI DSS",
+      "credit card",
+      "banking malware",
+      "fintech",
+      "tokenization"
+    ]
+  },
+  {
+    "id": "identity",
+    "label": "Identity / Chiếm đoạt tài khoản",
+    "keywords": [
+      "identity theft",
+      "SIM swap",
+      "SIM-swapping",
+      "account takeover",
+      "credential theft",
+      "passkey"
+    ]
+  },
+  {
+    "id": "mlcrypto",
+    "label": "AI/ML trong thám mã",
+    "keywords": [
+      "neural cryptanalysis",
+      "machine learning cryptanalysis",
+      "deep learning side-channel",
+      "deep learning-based side-channel",
+      "ML-based side-channel"
     ]
   }
 ]
