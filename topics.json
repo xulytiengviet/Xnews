@@ -1,0 +1,105 @@
+[
+  {
+    "id": "pqc",
+    "label": "PQC / Hậu lượng tử",
+    "keywords": [
+      "post-quantum",
+      "post quantum",
+      "pqc",
+      "ml-kem",
+      "ml-dsa",
+      "kyber",
+      "dilithium",
+      "sphincs"
+    ]
+  },
+  {
+    "id": "lightweight",
+    "label": "Mật mã nhẹ / IoT",
+    "keywords": [
+      "lightweight cryptography",
+      "ascon",
+      "grain-128",
+      "tinyjambu",
+      "gift-cofb"
+    ]
+  },
+  {
+    "id": "fhe",
+    "label": "Mã hóa đồng cấu (HE / FHE)",
+    "keywords": [
+      "homomorphic",
+      "fhe",
+      "tfhe",
+      "ckks",
+      "bgv"
+    ]
+  },
+  {
+    "id": "mpc",
+    "label": "Tính toán đa bên (MPC)",
+    "keywords": [
+      "multiparty",
+      "multi-party",
+      "multi party",
+      "mpc",
+      "garbled circuit"
+    ]
+  },
+  {
+    "id": "zkp",
+    "label": "Chứng minh không tiết lộ (ZKP)",
+    "keywords": [
+      "zero-knowledge",
+      "zero knowledge",
+      "zkp",
+      "zk-snark",
+      "zk-stark",
+      "bulletproof"
+    ]
+  },
+  {
+    "id": "sidechannel",
+    "label": "AI/ML & Kênh kề",
+    "keywords": [
+      "side-channel",
+      "side channel",
+      "fault injection",
+      "chipwhisperer",
+      "neural cryptanalysis",
+      "differential power"
+    ]
+  },
+  {
+    "id": "quantum",
+    "label": "Thám mã lượng tử",
+    "keywords": [
+      "quantum cryptanalysis",
+      "shor",
+      "grover",
+      "quantum attack"
+    ]
+  },
+  {
+    "id": "supply",
+    "label": "Chuỗi cung ứng",
+    "keywords": [
+      "supply chain",
+      "supply-chain",
+      "dependency confusion",
+      "sbom"
+    ]
+  },
+  {
+    "id": "network",
+    "label": "Mạng / Giao thức",
+    "keywords": [
+      "network",
+      "kerberos",
+      "dns",
+      "tcp",
+      "wi-fi",
+      "wireless"
+    ]
+  }
+]

@@ -41,7 +41,7 @@ jobs:
       - name: Prepare public dashboard only
         run: |
           mkdir -p public
-          cp index.html style.css app.js accounts.json tweets.json public/
+          cp index.html style.css app.js accounts.json topics.json tweets.json public/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: public

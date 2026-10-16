@@ -1,12 +1,19 @@
 'use strict';
 const $ = id => document.getElementById(id);
 let data = {tweets: []}, paused = false, loading = false;
+let profiles = [], categories = {}, topics = [];
+const profileFor = username => profiles.find(p => p.username.toLowerCase() === username.toLowerCase());
+function matchesTopic(t) {
+  const topic = topics.find(x => x.id === $("topic").value);
+  const text = [t.text,...(t.github_links || [])].join(" ").toLowerCase();
+  return !topic || topic.keywords.some(k => new RegExp("(^|[^a-z0-9])" + k.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "([^a-z0-9]|$)", "i").test(text));
+}
 const node = (tag, text, cls) => { const e = document.createElement(tag); if (text) e.textContent = text; if (cls) e.className = cls; return e; };
 function link(text, url, cls) { const e = node('a', text, cls); e.href = url; e.target = '_blank'; e.rel = 'noopener noreferrer'; return e; }
 function format(value) { return value ? new Date(value).toLocaleString('vi-VN') : 'Chưa có'; }
 function render() {
   const query = $('search').value.toLocaleLowerCase('vi');
-  const rows = data.tweets.filter(t => (!$('author').value || t.username === $('author').value) && [t.text,t.username,...(t.github_links || [])].join(' ').toLocaleLowerCase('vi').includes(query));
+  const rows = data.tweets.filter(t => matchesTopic(t) && (!$("category").value || profileFor(t.username)?.category === $("category").value) && (!$('author').value || t.username === $('author').value) && [t.text,t.username,...(t.github_links || [])].join(' ').toLocaleLowerCase('vi').includes(query));
   $('total').textContent = data.tweets.length;
   $('results').textContent = rows.length + ' kết quả';
   $('feed').replaceChildren();
@@ -19,7 +26,7 @@ function render() {
     const card = node('article', '', 'tweet'), head = node('div', '', 'tweet-head');
     const username = /^[A-Za-z0-9_]{1,15}$/.test(t.username) ? t.username : '';
     head.append(node('div', username.slice(0,2).toUpperCase(), 'avatar'), link('@' + username, 'https://x.com/' + username), node('time', format(t.created_at)));
-    card.append(head, node('p', t.text));
+    card.append(head, node('div', categories[profileFor(t.username)?.category] || 'An toàn thông tin', 'category-tag'), node('p', t.text));
     for (const url of t.github_links || []) {
       try { const parsed = new URL(url); if (parsed.protocol === 'https:' && ['github.com','www.github.com'].includes(parsed.hostname)) card.append(link('↗ ' + parsed.hostname + parsed.pathname, parsed.href, 'repo-link')); } catch {}
     }
@@ -45,14 +52,28 @@ async function refresh() {
   } catch (error) { $('notice').textContent = 'Không tải được dữ liệu: ' + error.message + '. Giữ lại nội dung lần trước.'; }
   finally { loading = false; $('refresh').disabled = false; }
 }
-$('search').oninput = render; $('author').onchange = render;
+$('category').onchange = render; $('topic').onchange = render; $('search').oninput = render; $('author').onchange = render;
 $('refresh').onclick = refresh;
 $('settings').onclick = () => $('help').showModal(); $('close').onclick = () => $('help').close();
 $('pause').onclick = () => { paused = !paused; $('pause').textContent = paused ? '▶ Tiếp tục' : 'Ⅱ Tạm dừng'; };
 $('fullscreen').onclick = async () => { try { if (document.fullscreenElement) await document.exitFullscreen(); else await document.documentElement.requestFullscreen(); } catch { $('notice').textContent = 'Trình duyệt không hỗ trợ toàn màn hình. Có thể dùng phím F11.'; } };
-fetch('accounts.json').then(r => {if (!r.ok) throw Error(); return r.json();}).then(({accounts}) => {
-  $('count').textContent = $('source-count').textContent = accounts.length;
-  for (const a of accounts) { const option = node('option', '@' + a); option.value = a; $('author').append(option); $('accounts').append(link('@' + a, 'https://x.com/' + encodeURIComponent(a), 'account')); }
-}).catch(() => { $('source-count').textContent = '?'; });
+function renderDirectory() {
+  const q = $('directory-search').value.toLowerCase(); $('directory').replaceChildren();
+  for (const p of profiles.filter(p => (p.name + ' ' + p.username).toLowerCase().includes(q))) {
+    const row = node('div', '', 'directory-row');
+    row.append(link(p.name + ' · @' + p.username, 'https://x.com/' + p.username), node('small', categories[p.category]), node('small', p.provenance));
+    for (const source of p.sources || []) row.append(link('Nguồn tham khảo ↗', source));
+    $('directory').append(row);
+  }
+}
+$('directory-search').oninput = renderDirectory;
+Promise.all(['accounts.json','topics.json'].map(url => fetch(url).then(r => {if (!r.ok) throw Error(url); return r.json();}))).then(([config, topicConfig]) => {
+  profiles = config.profiles; categories = config.categories; topics = topicConfig;
+  $('count').textContent = $('source-count').textContent = config.accounts.length;
+  for (const [value,label] of Object.entries(categories)) { const option = node('option',label); option.value = value; $('category').append(option); }
+  for (const t of topics) { const option = node('option',t.label); option.value = t.id; $('topic').append(option); }
+  for (const p of profiles) { const option = node('option', p.name + ' · @' + p.username); option.value = p.username; $('author').append(option); const a = link('@' + p.username, 'https://x.com/' + p.username, 'account'); a.title = p.name + ' · ' + categories[p.category]; $('accounts').append(a); }
+  renderDirectory(); render();
+}).catch(() => { $('source-count').textContent = '?'; $('notice').textContent = 'Không tải được danh mục chuyên gia/chủ đề. Hãy tải lại trang.'; });
 function clock() { $('clock').textContent = new Date().toLocaleTimeString('vi-VN'); }
 clock(); setInterval(clock,1000); refresh(); setInterval(() => { if (!paused && !document.hidden) refresh(); },60000);

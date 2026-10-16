@@ -29,6 +29,819 @@
     "dangoodin001",
     "gcluley",
     "hdmoore",
-    "wdormann"
+    "wdormann",
+    "harmj0y",
+    "_wald0",
+    "gentilkiwi",
+    "_RastaMouse",
+    "enigma0x3",
+    "tifkin_",
+    "rsmudge",
+    "_dirkjan",
+    "decoder_it",
+    "splinter_code",
+    "dguido",
+    "matthuang",
+    "1nf0s3cpt",
+    "joegrand",
+    "joe_fitz",
+    "travisgoodspeed",
+    "mossmann",
+    "samykamkar",
+    "xenokovah",
+    "colinoflynn",
+    "deviantollam",
+    "simonw",
+    "wunderwuzzi23",
+    "rez0__",
+    "elder_plinius",
+    "mbrg0",
+    "DontTrustAI",
+    "stanislavfort",
+    "LiveOverflow",
+    "hakluke",
+    "EdOverflow",
+    "filedescriptor",
+    "gynvael",
+    "halvarflake",
+    "stephenfewer",
+    "bartblaze",
+    "JohnLaTwC",
+    "shehackspurple",
+    "clintgibler",
+    "codingo_",
+    "stokfredrik",
+    "IanColdwater",
+    "likethecoins",
+    "JohnHultquist",
+    "JoeSlowik",
+    "cyb3rward0g",
+    "mattifestation",
+    "IAmATrashPanda",
+    "SBousseaden",
+    "thegrugq",
+    "RachelTobac",
+    "patrickwardle",
+    "ajinabraham",
+    "leonjza",
+    "0xcharlie",
+    "EricRZimmerman",
+    "MalwareJake",
+    "ifsecure",
+    "hashbreaker",
+    "hyperelliptic",
+    "cryptojedi",
+    "SmartCryptology",
+    "GarbledCircus",
+    "veorq",
+    "ChrisPeikert",
+    "WardBeullens",
+    "Khovr",
+    "benediktbuenz",
+    "randhindi",
+    "FiloSottile"
+  ],
+  "categories": {
+    "general": "An toàn thông tin",
+    "redteam": "Red team / Active Directory",
+    "blockchain": "Crypto / Blockchain",
+    "audit": "Kiểm toán bảo mật",
+    "hardware": "Phần cứng / IoT / Nhúng",
+    "ai": "AI / LLM",
+    "research": "Nghiên cứu lỗ hổng / Dịch ngược",
+    "appsec": "AppSec / Bug bounty",
+    "dfir": "Threat Intel / DFIR / Detection",
+    "cloud": "Cloud / Chuỗi cung ứng",
+    "privacy": "Quyền riêng tư / Dữ liệu",
+    "mobile": "Bảo mật di động",
+    "crypto": "Mật mã / Thám mã"
+  },
+  "profiles": [
+    {
+      "username": "briankrebs",
+      "name": "briankrebs",
+      "category": "general",
+      "provenance": "Danh sách gốc",
+      "sources": []
+    },
+    {
+      "username": "schneierblog",
+      "name": "schneierblog",
+      "category": "general",
+      "provenance": "Danh sách gốc",
+      "sources": []
+    },
+    {
+      "username": "troyhunt",
+      "name": "troyhunt",
+      "category": "appsec",
+      "provenance": "Danh sách gốc",
+      "sources": []
+    },
+    {
+      "username": "mikko",
+      "name": "mikko",
+      "category": "general",
+      "provenance": "Danh sách gốc",
+      "sources": []
+    },
+    {
+      "username": "samczsun",
+      "name": "samczsun",
+      "category": "audit",
+      "provenance": "Danh sách gốc",
+      "sources": []
+    },
+    {
+      "username": "zachxbt",
+      "name": "zachxbt",
+      "category": "blockchain",
+      "provenance": "Danh sách gốc",
+      "sources": []
+    },
+    {
+      "username": "taviso",
+      "name": "taviso",
+      "category": "research",
+      "provenance": "Danh sách gốc",
+      "sources": []
+    },
+    {
+      "username": "maddiestone",
+      "name": "maddiestone",
+      "category": "research",
+      "provenance": "Danh sách gốc",
+      "sources": []
+    },
+    {
+      "username": "natashenka",
+      "name": "natashenka",
+      "category": "research",
+      "provenance": "Danh sách gốc",
+      "sources": []
+    },
+    {
+      "username": "cyb3rops",
+      "name": "cyb3rops",
+      "category": "dfir",
+      "provenance": "Danh sách gốc",
+      "sources": []
+    },
+    {
+      "username": "malwaretechblog",
+      "name": "malwaretechblog",
+      "category": "general",
+      "provenance": "Danh sách gốc",
+      "sources": []
+    },
+    {
+      "username": "k8em0",
+      "name": "k8em0",
+      "category": "general",
+      "provenance": "Danh sách gốc",
+      "sources": []
+    },
+    {
+      "username": "orange_8361",
+      "name": "orange_8361",
+      "category": "appsec",
+      "provenance": "Danh sách gốc",
+      "sources": []
+    },
+    {
+      "username": "_JohnHammond",
+      "name": "_JohnHammond",
+      "category": "general",
+      "provenance": "Danh sách gốc",
+      "sources": []
+    },
+    {
+      "username": "SwiftOnSecurity",
+      "name": "SwiftOnSecurity",
+      "category": "general",
+      "provenance": "Danh sách gốc",
+      "sources": []
+    },
+    {
+      "username": "GossiTheDog",
+      "name": "GossiTheDog",
+      "category": "general",
+      "provenance": "Danh sách gốc",
+      "sources": []
+    },
+    {
+      "username": "RobertMLee",
+      "name": "RobertMLee",
+      "category": "dfir",
+      "provenance": "Danh sách gốc",
+      "sources": []
+    },
+    {
+      "username": "matthew_d_green",
+      "name": "matthew_d_green",
+      "category": "crypto",
+      "provenance": "Danh sách gốc",
+      "sources": []
+    },
+    {
+      "username": "adam3us",
+      "name": "adam3us",
+      "category": "crypto",
+      "provenance": "Danh sách gốc",
+      "sources": []
+    },
+    {
+      "username": "aantonop",
+      "name": "aantonop",
+      "category": "blockchain",
+      "provenance": "Danh sách gốc",
+      "sources": []
+    },
+    {
+      "username": "tayvano_",
+      "name": "tayvano_",
+      "category": "audit",
+      "provenance": "Danh sách gốc",
+      "sources": []
+    },
+    {
+      "username": "hasherezade",
+      "name": "hasherezade",
+      "category": "research",
+      "provenance": "Danh sách gốc",
+      "sources": []
+    },
+    {
+      "username": "Jhaddix",
+      "name": "Jhaddix",
+      "category": "appsec",
+      "provenance": "Danh sách gốc",
+      "sources": []
+    },
+    {
+      "username": "NahamSec",
+      "name": "NahamSec",
+      "category": "appsec",
+      "provenance": "Danh sách gốc",
+      "sources": []
+    },
+    {
+      "username": "HackingDave",
+      "name": "HackingDave",
+      "category": "redteam",
+      "provenance": "Danh sách gốc",
+      "sources": []
+    },
+    {
+      "username": "hacks4pancakes",
+      "name": "hacks4pancakes",
+      "category": "dfir",
+      "provenance": "Danh sách gốc",
+      "sources": []
+    },
+    {
+      "username": "dangoodin001",
+      "name": "dangoodin001",
+      "category": "general",
+      "provenance": "Danh sách gốc",
+      "sources": []
+    },
+    {
+      "username": "gcluley",
+      "name": "gcluley",
+      "category": "general",
+      "provenance": "Danh sách gốc",
+      "sources": []
+    },
+    {
+      "username": "hdmoore",
+      "name": "hdmoore",
+      "category": "redteam",
+      "provenance": "Danh sách gốc",
+      "sources": []
+    },
+    {
+      "username": "wdormann",
+      "name": "wdormann",
+      "category": "research",
+      "provenance": "Danh sách gốc",
+      "sources": []
+    },
+    {
+      "username": "harmj0y",
+      "name": "Will Schroeder",
+      "category": "redteam",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "_wald0",
+      "name": "Andy Robbins",
+      "category": "redteam",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "gentilkiwi",
+      "name": "Benjamin Delpy",
+      "category": "redteam",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "_RastaMouse",
+      "name": "Daniel Duggan",
+      "category": "redteam",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "enigma0x3",
+      "name": "Matt Nelson",
+      "category": "redteam",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "tifkin_",
+      "name": "Lee Christensen",
+      "category": "redteam",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "rsmudge",
+      "name": "Raphael Mudge",
+      "category": "redteam",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "_dirkjan",
+      "name": "Dirk-jan Mollema",
+      "category": "redteam",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "decoder_it",
+      "name": "Roberto Sanchez",
+      "category": "redteam",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "splinter_code",
+      "name": "Andrea Pierini",
+      "category": "redteam",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "dguido",
+      "name": "Dan Guido",
+      "category": "audit",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "matthuang",
+      "name": "Matt Huang",
+      "category": "blockchain",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "1nf0s3cpt",
+      "name": "SunSec",
+      "category": "audit",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "joegrand",
+      "name": "Joe Grand",
+      "category": "hardware",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "joe_fitz",
+      "name": "Joe FitzPatrick",
+      "category": "hardware",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "travisgoodspeed",
+      "name": "Travis Goodspeed",
+      "category": "hardware",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "mossmann",
+      "name": "Michael Ossmann",
+      "category": "hardware",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "samykamkar",
+      "name": "Samy Kamkar",
+      "category": "hardware",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "xenokovah",
+      "name": "Xeno Kovah",
+      "category": "hardware",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "colinoflynn",
+      "name": "Colin O’Flynn",
+      "category": "hardware",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "deviantollam",
+      "name": "Deviant Ollam",
+      "category": "redteam",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "simonw",
+      "name": "Simon Willison",
+      "category": "ai",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "wunderwuzzi23",
+      "name": "Johann Rehberger",
+      "category": "ai",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "rez0__",
+      "name": "Joseph Thacker",
+      "category": "ai",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "elder_plinius",
+      "name": "Pliny",
+      "category": "ai",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "mbrg0",
+      "name": "Michael Bargury",
+      "category": "ai",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "DontTrustAI",
+      "name": "Alex Polyakov",
+      "category": "ai",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "stanislavfort",
+      "name": "Stanislav Fort",
+      "category": "ai",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "LiveOverflow",
+      "name": "LiveOverflow",
+      "category": "research",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "hakluke",
+      "name": "Luke Stephens",
+      "category": "appsec",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "EdOverflow",
+      "name": "EdOverflow",
+      "category": "research",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "filedescriptor",
+      "name": "filedescriptor",
+      "category": "appsec",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "gynvael",
+      "name": "Gynvael Coldwind",
+      "category": "research",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "halvarflake",
+      "name": "Thomas Dullien",
+      "category": "research",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "stephenfewer",
+      "name": "Stephen Fewer",
+      "category": "research",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "bartblaze",
+      "name": "Bart Blaze",
+      "category": "dfir",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "JohnLaTwC",
+      "name": "John Lambert",
+      "category": "dfir",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "shehackspurple",
+      "name": "Tanya Janca",
+      "category": "appsec",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "clintgibler",
+      "name": "Clint Gibler",
+      "category": "appsec",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "codingo_",
+      "name": "codingo",
+      "category": "appsec",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "stokfredrik",
+      "name": "STÖK",
+      "category": "appsec",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "IanColdwater",
+      "name": "Ian Coldwater",
+      "category": "cloud",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "likethecoins",
+      "name": "Katie Nickels",
+      "category": "dfir",
+      "provenance": "Có nguồn tham khảo công khai; chưa kiểm tra hoạt động qua X API",
+      "sources": [
+        "https://www.sans.edu/profiles/katie-nickels"
+      ]
+    },
+    {
+      "username": "JohnHultquist",
+      "name": "John Hultquist",
+      "category": "dfir",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "JoeSlowik",
+      "name": "Joe Slowik",
+      "category": "dfir",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "cyb3rward0g",
+      "name": "Roberto Rodriguez",
+      "category": "dfir",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "mattifestation",
+      "name": "Matt Graeber",
+      "category": "dfir",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "IAmATrashPanda",
+      "name": "Amanda Berlin",
+      "category": "dfir",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "SBousseaden",
+      "name": "Sami Bousseaden",
+      "category": "dfir",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "thegrugq",
+      "name": "Thaddeus Grugq",
+      "category": "privacy",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "RachelTobac",
+      "name": "Rachel Tobac",
+      "category": "redteam",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "patrickwardle",
+      "name": "Patrick Wardle",
+      "category": "research",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "ajinabraham",
+      "name": "Ajin Abraham",
+      "category": "mobile",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "leonjza",
+      "name": "Leon Jacobs",
+      "category": "mobile",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "0xcharlie",
+      "name": "Charlie Miller",
+      "category": "hardware",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "EricRZimmerman",
+      "name": "Eric Zimmerman",
+      "category": "dfir",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "MalwareJake",
+      "name": "Jake Williams",
+      "category": "dfir",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "ifsecure",
+      "name": "Ivan Fratric",
+      "category": "research",
+      "provenance": "Danh sách đề xuất; chưa kiểm tra hoạt động qua X API",
+      "sources": []
+    },
+    {
+      "username": "hashbreaker",
+      "name": "Daniel J. Bernstein",
+      "category": "crypto",
+      "provenance": "Có nguồn tham khảo công khai; chưa kiểm tra hoạt động qua X API",
+      "sources": [
+        "https://x.com/hashbreaker"
+      ]
+    },
+    {
+      "username": "hyperelliptic",
+      "name": "Tanja Lange",
+      "category": "crypto",
+      "provenance": "Có nguồn tham khảo công khai; chưa kiểm tra hoạt động qua X API",
+      "sources": [
+        "https://hyperelliptic.org/tanja/de/"
+      ]
+    },
+    {
+      "username": "cryptojedi",
+      "name": "Peter Schwabe",
+      "category": "crypto",
+      "provenance": "Có nguồn tham khảo công khai; chưa kiểm tra hoạt động qua X API",
+      "sources": [
+        "https://cryptojedi.org/peter/index.shtml"
+      ]
+    },
+    {
+      "username": "SmartCryptology",
+      "name": "Nigel Smart",
+      "category": "crypto",
+      "provenance": "Có nguồn tham khảo công khai; chưa kiểm tra hoạt động qua X API",
+      "sources": [
+        "https://ioc.exchange/@nigel_paul_smart"
+      ]
+    },
+    {
+      "username": "GarbledCircus",
+      "name": "Mike Rosulek",
+      "category": "crypto",
+      "provenance": "Có nguồn tham khảo công khai; chưa kiểm tra hoạt động qua X API",
+      "sources": [
+        "https://news.oregonstate.edu/news/osu-cryptography-research-leads-huge-efficiency-gain-secure-computing"
+      ]
+    },
+    {
+      "username": "veorq",
+      "name": "Jean-Philippe Aumasson",
+      "category": "crypto",
+      "provenance": "Có nguồn tham khảo công khai; chưa kiểm tra hoạt động qua X API",
+      "sources": [
+        "https://hardwaresecurity.training/trainers/jpaumasson/"
+      ]
+    },
+    {
+      "username": "ChrisPeikert",
+      "name": "Chris Peikert",
+      "category": "crypto",
+      "provenance": "Có nguồn tham khảo công khai; chưa kiểm tra hoạt động qua X API",
+      "sources": [
+        "https://web.eecs.umich.edu/~cpeikert/"
+      ]
+    },
+    {
+      "username": "WardBeullens",
+      "name": "Ward Beullens",
+      "category": "crypto",
+      "provenance": "Có nguồn tham khảo công khai; chưa kiểm tra hoạt động qua X API",
+      "sources": [
+        "https://x.com/WardBeullens/with_replies"
+      ]
+    },
+    {
+      "username": "Khovr",
+      "name": "Dmitry Khovratovich",
+      "category": "crypto",
+      "provenance": "Có nguồn tham khảo công khai; chưa kiểm tra hoạt động qua X API",
+      "sources": [
+        "https://x.com/Khovr"
+      ]
+    },
+    {
+      "username": "benediktbuenz",
+      "name": "Benedikt Bünz",
+      "category": "crypto",
+      "provenance": "Có nguồn tham khảo công khai; chưa kiểm tra hoạt động qua X API",
+      "sources": [
+        "https://x.com/benediktbuenz/with_replies"
+      ]
+    },
+    {
+      "username": "randhindi",
+      "name": "Rand Hindi",
+      "category": "crypto",
+      "provenance": "Có nguồn tham khảo công khai; chưa kiểm tra hoạt động qua X API",
+      "sources": [
+        "https://github.com/randhindi"
+      ]
+    },
+    {
+      "username": "FiloSottile",
+      "name": "Filippo Valsorda",
+      "category": "crypto",
+      "provenance": "Có nguồn tham khảo công khai; chưa kiểm tra hoạt động qua X API",
+      "sources": [
+        "https://words.filippo.io/hi/"
+      ]
+    }
   ]
 }
